@@ -57,7 +57,7 @@ if __name__ == "__main__":
 
         mycommand = takeCommand().lower()
 
-        # Logic for executing tasks based on query
+        # Logic for executing tasks based on the commands of the user
         if 'wikipedia' in mycommand:
             say_it('Searching Wikipedia...')
             try:
