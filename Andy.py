@@ -60,12 +60,16 @@ if __name__ == "__main__":
         # Logic for executing tasks based on query
         if 'wikipedia' in mycommand:
             say_it('Searching Wikipedia...')
-            query = mycommand.replace("wikipedia", "")
-            results = wikipedia.summary(query, sentences=1)
-            say_it("According to Wikipedia")
-            print(results)
-            say_it(results)
-            say_it("do you want me to do anything else?")
+            try:
+                query = mycommand.replace("wikipedia", "")
+                results = wikipedia.summary(query, sentences=1)
+                say_it("According to Wikipedia")
+                print(results)
+                say_it(results)
+                say_it("do you want me to do anything else?")
+            except Exception as e:
+                say_it("sorry, i'm unable to search at this moment")
+
 
         elif 'open youtube' in mycommand:
             webbrowser.open("youtube.com")
