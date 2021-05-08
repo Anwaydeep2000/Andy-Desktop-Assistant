@@ -7,15 +7,15 @@ import pyttsx3
 import os
 
 
-engn = pyttsx3.init('sapi5')
-voices = engn.getProperty('voices')
+friend = pyttsx3.init('sapi5')
+voices = friend.getProperty('voices')
 
-engn.setProperty('voice', voices[1].id)
+friend.setProperty('voice', voices[1].id)
 
 
 def say_it(audio):
-    engn.say(audio)
-    engn.runAndWait()
+    friend.say(audio)  
+    friend.runAndWait()
 
 
 def welcome():
