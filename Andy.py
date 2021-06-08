@@ -1,13 +1,13 @@
 import speech_recognition as sr #pip install  SpeechRecognition
-import pywhatkit
-from requests import get #pip install requests
-import cv2  #pip install opencv-python
+import pywhatkit                #pip install pywhatkit
+from requests import get        #pip install requests
+import cv2          #pip install opencv-python
 import random
-import webbrowser   #pip install webrowser
+import webbrowser        #pip install webrowser
 import datetime
 import os
-import wikipedia  #pip install wikipedia
-import pyttsx3 #pip install pyttsx3
+import wikipedia      #pip install wikipedia
+import pyttsx3      #pip install pyttsx3
 
 
 
