@@ -151,7 +151,8 @@ if __name__ == "__main__":
 
         elif 'send message' in mycommand or 'whatsapp' in mycommand:
             say_it("Okay ,what message should i send")
-            pywhatkit.sendwhatmsg("+91number",f"{srch}",00,00)        
+            msg=takeCommand().lower()
+            pywhatkit.sendwhatmsg("+91number",f"{msg}",00,00)        
 
         elif 'open google' in mycommand:
             say_it("Okay ,what should i search on google")
