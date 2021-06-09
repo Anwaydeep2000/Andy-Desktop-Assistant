@@ -23,6 +23,7 @@ It is a initial Clone of Google Assistance/Amazon Alexa
 
 - [google SpeechRecognition API](https://pypi.org/project/SpeechRecognition/) : For conveting Speech to Test
 - [ipify API](https://www.ipify.org/) : For finding IP address
+- [wikipedia API](https://pypi.org/project/wikipedia/) : For Wikipedia search
 
 ## Blog Reference
 
