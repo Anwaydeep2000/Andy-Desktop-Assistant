@@ -109,6 +109,14 @@ if __name__ == "__main__":
         elif 'open vs code' in mycommand:
             cpath = "C:\\Users\\natha\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(cpath)
+            
+        elif 'shut down my device' in mycommand:
+            os.system('shutdown /s /t 5')
+            say_it('Shutting down. have a nice day ahead')
+
+        elif 'restart my device' in mycommand:
+            os.system('shutdown /r /t 5')
+            say_it('Restarting your device. Hold on')
 
     #CHATBOT
 
@@ -116,9 +124,6 @@ if __name__ == "__main__":
             say_it("you're welcome:)")
             say_it("can i do anything else for you?")
 
-
-        elif 'love you' in mycommand:
-            say_it("Sorry!\nI have a boyfriend")
 
         elif 'about yourself' in mycommand or 'who are you' in mycommand or 'what is your name' in mycommand:
             say_it("my name is Andy")
