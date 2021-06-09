@@ -163,6 +163,7 @@ if __name__ == "__main__":
             say_it("Okay ,what should i search on google")
             srch=takeCommand().lower()
             webbrowser.open(f"{srch}")
+            say_it("Done")
             
         elif 'wikipedia' in mycommand:
             say_it('Searching Wikipedia...')
