@@ -1,6 +1,6 @@
 ## Andy: Virtual Desktop Assistant
 'Andy' is a Virtual Voice-Based Assistance that can perform a lot of daily tasks using google API's.
-It is a initital Clone of Google Assistance/Amazon Alexa
+It is a initial Clone of Google Assistance/Amazon Alexa
 
 ## Assistant Features
  - Google searches
