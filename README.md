@@ -17,11 +17,11 @@ It is a initital Clone of Google Assistance/Amazon Alexa
 ## Documentation
 
 - Text to Speech (TTS) library for Python 2 and 3, Works without internet connection or delay : [pyttsx3 2.90](https://pypi.org/project/pyttsx3/)
-- Library for performing speech recognition, with support for several engines and APIs, online and offline : [SpeechRecognition 3.8.1](https://pypi.org/project/SpeechRecognition//)
+- Library for performing speech recognition, with support for several engines and APIs, online and offline : [SpeechRecognition 3.8.1](https://pypi.org/project/SpeechRecognition/)
 
 ## API Reference
 
-- [google SpeechRecognition API](https://pypi.org/project/SpeechRecognition//) : For conveting Speech to Test
+- [google SpeechRecognition API](https://pypi.org/project/SpeechRecognition/) : For conveting Speech to Test
 - [ipify API](https://www.ipify.org/) : For finding IP address
 
 ## Blog Reference
