@@ -1,5 +1,5 @@
 ## Andy: Virtual Desktop Assistant
-'Andy' is a Virtual Voice-Based Assistance(developed using python 3.8.2) that can perform a lot of daily tasks using google API's.
+'Andy' is a Virtual Voice-Based Assistant(developed using python 3.8.2) that can perform a lot of daily tasks using google API's.
 It is a initial Clone of Google Assistance/Cortana.
 
 ## Assistant Features
